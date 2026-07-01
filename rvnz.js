@@ -26,8 +26,8 @@ const samih = JSON.parse(fs.readFileSync('./src/json/simi.json'))
 //options
 const option = JSON.parse(fs.readFileSync('./settings/option.json'))
 const {
-    botName,
-    ownerName
+    botName, "Beller"
+    ownerName "bellxyz"
 } = option
 
 prefix = '!'
